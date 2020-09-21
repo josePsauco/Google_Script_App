@@ -39,5 +39,4 @@ El archivo que se sube es un excel donde se encuentra el listado de estudiantes,
 
 <img src="https://github.com/josePsauco/Img/blob/master/excel.JPG" width="700"/>
 
-
-
+Se recomienda no alterar el orden.
