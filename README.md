@@ -15,4 +15,4 @@ En el mismo documento word, ingresar al menu herramientas y elegir la opcion :
 
 Cuando elija esa opcion le va parecer esta interfaz:
 
-<img src="https://github.com/josePsauco/Img/blob/master/image.png" width="350"/>
+<img src="https://github.com/josePsauco/Img/blob/master/image.png" width="500"/>
