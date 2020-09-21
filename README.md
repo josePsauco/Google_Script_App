@@ -32,6 +32,12 @@ Resultado final
 Para probar el funcionamiento del google script app, procedemos a ingresar al panel ejectuar y elejimos probar complemento.
 desarrollamos los pasos a seguir para tener este resultado:
 
-<img src="https://github.com/josePsauco/Img/blob/master/propiedad.png" width="700"/>
+
+# Recomendaciones
+
+El archivo que se sube es un excel donde se encuentra el listado de estudiantes, organizado de la siguiente manera:
+
+<img src="https://github.com/josePsauco/Img/blob/master/excel.JPG" width="700"/>
+
 
 
