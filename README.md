@@ -7,7 +7,7 @@ El archivo Código.js es un documento de extension.gs, por favor ignorar el form
 Lo adjunte asi por comodidad.
 
 - Crear un documento word en su drive
-- Ingresar el documento creado
+- Ingresar al documento creado
 
 En el mismo documento word, ingresar al menu herramientas y elegir la opcion :
 
