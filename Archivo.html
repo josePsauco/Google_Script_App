@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <base target="_top">
+     <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
+   </head>
+<body>
+ <input name="file" id="files" type="file" multiple>
+ <input type='button' value='Upload' onclick='getFiles()'>
+
+<script>
+function getFiles() {
+  const f = document.getElementById('files');
+  [...f.files].forEach((file, i) => {
+    const fr = new FileReader();
+    fr.onload = (e) => {
+      const data = e.target.result.split(",");
+      const obj = {fileName: f.files[i].name, mimeType: data[0].match(/:(\w.+);/)[1], data: data[1]};
+      google.script.run.withSuccessHandler((id) => {
+        console.log(id);
+      }).CargarArchivo(obj);
+    }
+    fr.readAsDataURL(file);
+  });
+}
+</script>
+</body>
+</html>
