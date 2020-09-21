@@ -29,7 +29,7 @@ Resultado final
 
 # Instrucción para ejecutar
 
-Para probar el funcionamiento del google script app, procedemos a ingresar al panel ejecuar y elejimos probar como complemento.
+Para probar el funcionamiento del google script app, procedemos a ingresar al panel ejectuar y elejimos probar complemento.
 desarrollamos los pasos a seguir para tener este resultado:
 
 <img src="https://github.com/josePsauco/Img/blob/master/propiedad.png" width="700"/>
