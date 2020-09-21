@@ -25,7 +25,7 @@ de apis que son  :
 
 Resultado final
 
-<img src="https://github.com/josePsauco/Img/blob/master/Captura.JPG" width="700"/>
+<img src="https://github.com/josePsauco/Img/blob/master/propiedad.png" width="700"/>
 
 # Instrucción para ejecutar
 
