@@ -1,9 +1,9 @@
 # Google_Script_App
-Un script básico para la combinación de correspondencia
+Un script para la combinación de correspondencia
 
 # Instrucciones basica para adjuntar el google script app
 
-El archivo Código.js es un documento de extension.gs, por favor ignorar el formato js.
+El archivo Código.js se guarda el codigo.gs, por favor ignorar el formato js.
 Lo adjunte asi por comodidad.
 
 - Crear un documento word en su drive
@@ -26,4 +26,12 @@ de apis que son  :
 Resultado final
 
 <img src="https://github.com/josePsauco/Img/blob/master/Captura.JPG" width="700"/>
+
+# Instrucción para ejecutar
+
+Para probar el funcionamiento del google script app, procedemos a ingresar al panel ejecuar y elejimos probar como complemento.
+desarrollamos los pasos a seguir para tener este resultado:
+
+<img src="https://github.com/josePsauco/Img/blob/master/propiedad.png" width="700"/>
+
 
