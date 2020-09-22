@@ -101,8 +101,8 @@ function onOpen(e){
     if(matrix!=null){
       for(var i=1; i<matrix.length; i++) {
         GmailApp.sendEmail(matrix[i][5], "Combinacion de correspondecia",
-                           "Estimado (a) estudiante: "+matrix[i][1]+"\nNos permite informarle que su reporte en el curso Ing\nCalificacion: "+matrix[i][3]+
-                           "\nObservaciones: "+matrix[i][4]+"\nPuesto en el grupo: "+matrix[i][0]+"\nFelicitaciones y exitos en su vida academica y profesional.");
+                           "Estimado (a) estudiante: "+matrix[i][1]+" "+matrix[i][2]+" \nNos permite informarle que su reporte en el curso Ing.\nCalificacion: "+matrix[i][3]+
+                           ".\nObservaciones: "+matrix[i][4]+".\nPuesto en el grupo: "+matrix[i][0]+".\nFelicitaciones y exitos en su vida academica y profesional.");
       }
       return;}
     Error();
