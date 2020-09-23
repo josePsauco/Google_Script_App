@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <base target="_top">
+     <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
+   </head>
+<body>
+<form id="myform">
+ <input name="file" id="file" type="text">
+ <button type="submit" class="action">Enviar</button>
+</form>
+<script>
+document.querySelector("#myform").addEventListener("submit", 
+    function(e)
+    {
+     e.preventDefault();    //stop form from submitting
+     google.script.run.BuscarHojaGoogle(this);
+     google.script.host.close();//close this dialogbox
+    }
+    );
+</script>
+</body>
+</html>

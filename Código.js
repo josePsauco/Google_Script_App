@@ -131,3 +131,19 @@ function onOpen(e){
     DocumentApp.getUi().showModalDialog(html,'Error');
   }
   
+  function ConectarDocumento(){
+    
+    var html = HtmlService.createHtmlOutputFromFile('Interfaz.html');
+    html.setHeight(30);
+    html.setWidth(500);
+    DocumentApp.getUi().showModalDialog(html,'Ingrese la url de la hoja de google a conectar');
+  }
+
+  function BuscarHojaGoogle(obj){
+    var documento = SpreadsheetApp.openByUrl(obj.file);
+    if(documento!=null){
+      rellenarCeldas(documento);
+      return;}
+    Error();
+  }
+  
