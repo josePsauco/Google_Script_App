@@ -1,6 +1,6 @@
 function onOpen(e){
-    DocumentApp.getUi().createMenu('Menu-Operaciones').addItem('Cargar Tabla', 'Capturar').addItem('Enviar mensaje', 'EnviarMensaje').addItem('Enviar PDF', 'EnviarPDF').addItem('Ver Cuerpo del mensaje', 'VerMensaje').addToUi();
-    
+    DocumentApp.getUi().createMenu('Menu-Operaciones').addItem('Cargar Tabla excel', 'Capturar').addItem('Enviar mensaje', 'EnviarMensaje').addItem('Enviar PDF', 'EnviarPDF').addItem('Ver Cuerpo del mensaje', 'VerMensaje').
+    addItem('Conectar hoja de calculo', 'ConectarDocumento').addToUi();
   }
   
   function rellenarCeldas(sheet) {
