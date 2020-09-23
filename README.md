@@ -40,7 +40,7 @@ El archivo que se sube es un excel donde se encuentra el listado de estudiantes,
 
 <img src="https://github.com/josePsauco/Img/blob/master/excel.JPG" width="700"/>
 
-Se recomienda no alterar el orden.
+Se recomienda no alterar el orden del archivo si subira un documento excel o lo vinculara con una hoja de calculo de google
 
 # Funciones
 
